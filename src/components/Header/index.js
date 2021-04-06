@@ -42,7 +42,7 @@ const Header = ({ t }) => {
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => scrollTo("footer")}
         >
           <S.Span>
             <Button>{t("Contact")}</Button>
@@ -57,7 +57,7 @@ const Header = ({ t }) => {
       <S.Container>
         <Row type="flex" justify="space-between" gutter={20}>
           <S.LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" />
+            <SvgIcon src="logo.svg" width="50%" height="80%" />
           </S.LogoContainer>
           <S.NotHidden>
             <MenuItem />

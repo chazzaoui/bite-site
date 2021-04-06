@@ -29,7 +29,7 @@ const Styles = createGlobalStyle`
     h5,
     h6 {
         font-family: 'Ubuntu', sans-serif;
-        color: #0a1f44;
+        color: #16AEFF;
         font-size: 2.575rem;
         line-height: 3.0625rem;
       

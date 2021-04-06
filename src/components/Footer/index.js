@@ -31,7 +31,7 @@ const Footer = ({ t }) => {
   return (
     <Fragment>
       <Fade bottom>
-        <S.Footer>
+        <S.Footer id='footer'>
           <Container>
             <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
