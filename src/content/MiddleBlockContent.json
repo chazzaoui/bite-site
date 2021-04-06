@@ -1,6 +1,5 @@
 {
-    "title": "Introduce Your Product Quickly & Effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get Started"
-  }
-  
+  "title": "The casual social app",
+  "text": "Bored on a friday and looking for a few friends to go for drinks? See how Bite can help you...",
+  "button": "Get Started"
+}

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import SvgIcon from '../../common/SvgIcon';
 
 export const Footer = styled.footer`
   background: rgb(249, 250, 252);
@@ -111,11 +112,14 @@ export const FooterContainer = styled.div`
   max-width: 510px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
 
   @media screen and (max-width: 414px) {
     padding: 2rem 0;
     padding-right: 50%;
+  }
+
+  img {
+    margin-right: 8px;
   }
 
   div {
