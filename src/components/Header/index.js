@@ -31,7 +31,7 @@ const Header = ({ t }) => {
     };
     return (
       <Fragment>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
+        {/* <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
           <S.Span>{t("About")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
@@ -39,7 +39,7 @@ const Header = ({ t }) => {
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall onClick={() => scrollTo("product")}>
           <S.Span>{t("Product")}</S.Span>
-        </S.CustomNavLinkSmall>
+        </S.CustomNavLinkSmall> */}
         <S.CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("footer")}
@@ -62,9 +62,9 @@ const Header = ({ t }) => {
           <S.NotHidden>
             <MenuItem />
           </S.NotHidden>
-          <S.Burger onClick={showDrawer}>
-            <S.Outline />
-          </S.Burger>
+          {/* <S.Burger onClick={showDrawer}>
+          <S.Outline />
+        </S.Burger>  */}
         </Row>
         <CSSTransition
           in={!isSmallScreen || isNavVisible}
@@ -87,7 +87,7 @@ const Header = ({ t }) => {
           </Drawer>
         </CSSTransition>
       </S.Container>
-    </S.Header>
+    </S.Header >
   );
 };
 

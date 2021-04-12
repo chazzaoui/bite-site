@@ -32,7 +32,7 @@ const Home = () => {
         type="left"
         title={AboutContent.title}
         content={AboutContent.text}
-        icon="go_offline.svg"
+        icon="homepage.png"
         id="about"
       />
       <ContentBlock
