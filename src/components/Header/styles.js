@@ -93,7 +93,7 @@ export const Outline = styled(MenuOutlined)`
   font-size: 22px;
   padding-right: ${(props) => (props.padding ? '10px' : '')};
   svg {
-    fill: #5A61FF;
+    fill: #251561;
   }
 `;
 

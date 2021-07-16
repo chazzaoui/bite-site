@@ -4,7 +4,7 @@ export const Up = styled.div`
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #5A61FF;
+  color: #251561;
   font-size: 14px;
   line-height: 1.5715;
   list-style: none;
@@ -17,8 +17,8 @@ export const Up = styled.div`
   cursor: pointer;
 
   svg {
-    stroke: #5A61FF;
-    fill: #5A61FF;
+    stroke: #251561;
+    fill: #251561;
   }
 
   @media screen and (max-width: 1024px) {

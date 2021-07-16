@@ -29,7 +29,7 @@ const Styles = createGlobalStyle`
     h5,
     h6 {
         font-family: 'Ubuntu', sans-serif;
-        color: #16AEFF;
+        color: #df7e70;
         font-size: 2.575rem;
         line-height: 3.0625rem;
       
@@ -50,10 +50,10 @@ const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #5A61FF;
+        color: #251561;
 
         :hover {
-            color: #5A61FF;
+            color: #251561;
         }
     }
     

@@ -20,6 +20,6 @@ export const Input = styled.input`
 
   &:focus,
   &:hover {
-    border-color: #5A61FF;
+    border-color: #251561;
   }
 `;
